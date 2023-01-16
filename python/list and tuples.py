@@ -1,4 +1,6 @@
-# list
+# _______________________________________
+#              LISTS
+# ______________________________________
 # create a list usint using []
 
 a=[1,2,3,4,5,6,6,77,7,8]
@@ -76,3 +78,73 @@ for x in list2:
 list1 = ["a", "b", "c"]
 mylist=list1.copy()
 print(mylist)
+
+
+# _____________________________________________
+#
+#                 TUPLES
+# ______________________________________________
+
+# tuples are immutable data type
+# cant update cant change or mannuplated
+
+#empty tuple   a=()
+
+# creating a tuple
+b=(1,2,4,5,6,7,8,9)
+print(b)
+print(b[0])
+print(b[1])
+print(b[0:5])
+print(b[::-1])
+
+
+# METHODS
+
+# count ...returns no of  apperences
+print(b.count(4))
+
+# index
+print(b.index(5))
+print(b.index(7))
+
+# len ....gives length
+print(len(b))
+
+# Join two tuples:
+
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+
+
+# Multiply the fruits tuple by 2:
+
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+print(mytuple)
+
+
+# loop
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+
+
+# Print all items by referring to their index number:
+
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+  print(thistuple[i])
+
+
+# Print all items, using a while loop to go through all the index numbers:
+
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1
