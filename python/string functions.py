@@ -22,4 +22,3 @@ replace=a.replace("  "," ")
 print(doublespaces)
 print(replace)
 
-thanks
