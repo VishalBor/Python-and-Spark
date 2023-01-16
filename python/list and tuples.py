@@ -157,6 +157,7 @@ while i < len(thistuple):
 
 
 # Write a program to store 7 fruits in a list entered by a user
+'''
 e=input("enter fruit 1")
 f=input("enter fruit 2")
 g=input("enter fruit 3")
@@ -165,5 +166,34 @@ i=input("enter fruit 5")
 j=input("enter fruit 6")
 k=input("enter fruit 7")
 list4=[e,f,g,h,i,j,k]
-print(list4)
+print(list4)'''
 
+# write a program to accept  marks of 6 students and display them in a sorted manner
+'''
+e=int(input("enter marks 1"))
+f=int(input("enter marks 2"))
+g=int(input("enter marks 3"))
+h=int(input("enter marks 4"))
+i=int(input("enter marks 5"))
+j=int(input("enter marks 6"))
+list4=[e,f,g,h,i,j]
+list4.sort()
+print(list4)
+'''
+
+# Check  that Tuple cannot be changed in python
+'''
+z=(1,2,3,4,5,6,7)
+z[0]=45
+print(z)
+'''
+
+# write a program to sum a list with 4 numbers
+'''
+v=[5,4,6,7]
+print(a[0]+a[1]+a[2]+a[3])
+'''
+
+# write a program to count the number of Zero inn the following tuple
+v=(7,0,8,0,0,9)
+print(v.count(0))
