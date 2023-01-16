@@ -42,10 +42,37 @@ l1.insert(0,0)
 l1.insert(3,5)
 print(l1)
 
-# pop   removes last element
+# pop removes last element
 # l1.pop()
+# l1.pop(2)
 # print(l1)
 
 # remove  .removes selected element from list
 l1.remove(1)
 print(l1)
+
+# count ...counts the given element element
+print(l1.count(45))
+
+# clear   ...clers the list
+# print(l1.clear())
+
+# join list
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+list3 = list1 + list2
+print(list3)
+
+# using for loop join 2 lists
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+    list1.append(x)
+    print(list1)
+
+
+#copy list
+list1 = ["a", "b", "c"]
+mylist=list1.copy()
+print(mylist)
