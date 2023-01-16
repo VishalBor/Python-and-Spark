@@ -149,3 +149,21 @@ while i < len(thistuple):
   print(thistuple[i])
   i = i + 1
 
+
+
+# ___________________________________________________
+#      QUESTION ON LIST AND TUPLES
+# ___________________________________________________
+
+
+# Write a program to store 7 fruits in a list entered by a user
+e=input("enter fruit 1")
+f=input("enter fruit 2")
+g=input("enter fruit 3")
+h=input("enter fruit 4")
+i=input("enter fruit 5")
+j=input("enter fruit 6")
+k=input("enter fruit 7")
+list4=[e,f,g,h,i,j,k]
+print(list4)
+
