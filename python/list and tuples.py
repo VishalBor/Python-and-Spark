@@ -20,3 +20,6 @@ c=[45,"vishal",True,False]
 # slicing
 friends=["vishal","pooja","akash","ajay","amol"]
 print(friends[0:3])
+
+
+# List Methods
