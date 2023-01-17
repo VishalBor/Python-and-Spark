@@ -195,5 +195,7 @@ print(a[0]+a[1]+a[2]+a[3])
 '''
 
 # write a program to count the number of Zero inn the following tuple
+'''
 v=(7,0,8,0,0,9)
 print(v.count(0))
+'''
