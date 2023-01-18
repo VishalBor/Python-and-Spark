@@ -144,10 +144,8 @@ else:
 # A spam comment is defined as a text containinng following keywords;
 # make  a lot of money ,buy now,subscribe this,click this,
 # write a program to detect this spams
-
+'''
 text=input("write a text=")
-
-
 if "subScribe now " in text:
     print("SPAM")
 elif "buy now " in text:
@@ -158,3 +156,4 @@ elif "click this" in text:
     print("SPAM")
 else:
     print("its not a SPAM")
+'''
