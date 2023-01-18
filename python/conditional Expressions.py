@@ -157,3 +157,30 @@ elif "click this" in text:
 else:
     print("its not a SPAM")
 '''
+
+
+
+
+# Write a program to find wheather a given username contains less than 10 characters r not.
+'''
+a=input("enter name=")
+if len(a)>10:
+    print("lenth  is greater than 10")
+else:
+    print("length is  less than 10")
+'''
+
+
+
+
+# Write  a program which finds out whether a given name is present in a list  or not
+a=input("Enter name")
+list=["om","chew","guddu","sweety","pallu","chaku"]
+if a in list:
+    print("name present in list")
+else:
+    print("Not Present in a list")
+
+
+
+# Write  a program to Calculate the grade of a student from his marks from the following scheme
