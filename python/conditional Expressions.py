@@ -5,7 +5,6 @@
 
 # if else and elif in python
 # if else and elif statements are a multiway decision taken by our program due to certain condition in our code
-
 # syntx
 '''
 if(condition):
@@ -15,6 +14,7 @@ elif(condition2):
 else:
     print("maybe")
 '''
+
 
 
 # program
@@ -174,13 +174,35 @@ else:
 
 
 # Write  a program which finds out whether a given name is present in a list  or not
+'''
 a=input("Enter name")
 list=["om","chew","guddu","sweety","pallu","chaku"]
 if a in list:
     print("name present in list")
 else:
     print("Not Present in a list")
+'''
+
 
 
 
 # Write  a program to Calculate the grade of a student from his marks from the following scheme
+'''
+Marks = int(input("enter Percentage"))
+if Marks>=90:
+    print("Grade A")
+elif Marks>=70:
+    print("Grade B")
+elif Marks>=50:
+    print("Grade C")
+else:
+    print("Fail")
+'''
+
+
+
+
+
+# Write a program to find out whether a given post is talkking about akash or nor
+
+
