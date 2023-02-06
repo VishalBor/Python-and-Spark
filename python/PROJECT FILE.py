@@ -119,3 +119,25 @@ df2=df.dropDuplicates().show()
 # drop dupllicates on selected mulltiple columns
 df3=df.dropDuplicates(["department","salary"]).show()
 '''
+
+
+
+
+
+# How to drop null values
+# syntax;
+# drop(how='any', thresh=None, subset=None)
+# how – This takes values ‘any’ or ‘all’. By using ‘any’, drop a row if it contains NULLs on any columns. By using ‘all’, drop a row only if all columns have NULL values. Default is ‘any’.
+# thresh – This takes int value, Drop rows that have less than thresh hold non-null values. Default is ‘None’.
+# subset – Use this to select the columns for NULL values. Default is ‘None.
+
+
+# df.na.drop().show(false)
+
+# df.na.drop("any").show(false)
+
+# df.na.drop("all").show(false)
+
+# df.na.drop(subset=["population","type"]).show(truncate=False)
+
+# df.dropna().show(truncate=False)
